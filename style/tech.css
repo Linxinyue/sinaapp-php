@@ -1,0 +1,130 @@
+.mainImg{
+	width: 95%;
+	background-color: #3F51B5;	
+	padding-top: 150px;
+	line-height: 100px;
+	padding-bottom: 50px;
+	padding-left: 5%;
+	font-size: 68px;
+	color: #fff;
+	display: none;
+}
+.main{
+	margin: 2% auto 0px auto;
+	width: 70%;
+	display: none;
+}
+
+.mainPage{
+	padding-top: 5%;
+	width: 70%;
+	float: left;
+	box-shadow: 0px 5px 7px #999;
+	margin-bottom: 2%;
+	border: 1px solid #eaeaea;
+	padding-bottom: 5%;
+}
+
+.mainList{
+	position: absolute;
+	width: 19%;
+	left: 67%;
+	z-index: -1;
+}
+
+.list{
+	padding-bottom: 5%;
+	width: 100%;
+	border: 1px solid #eaeaea;
+	-webkit-transition:box-shadow 1s;
+}
+.list:hover{
+	box-shadow: 0px 5px 15px #999; 
+}
+#listtime a{
+	color: #607D8B;
+}
+#listtag{
+	float: left;
+	clear: both;
+	margin-top: 5%;
+	width: 80%;
+	padding: 0px 10% 5%;
+	color: #fff;
+}
+
+.indexTitle{
+	color: #424242;
+	margin: 16px 16px 5px 16px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #efefef;
+}
+.titleList{
+	padding-left: 22px;
+	padding-right: 16px;
+	height: 30px;
+	overflow: hidden;
+	color: #607D8B;
+	line-height: 30px;
+}
+.tags{
+	float: left;
+	padding:1% 1%;
+	background-color: #673AB7;
+	margin: 2% 1%;
+	border-radius: 3px;
+	color: #fff;
+}
+@media (max-width:800px){
+	.main{
+		width: 95%;
+		margin-top: 10%;
+	}
+	.mainPage{
+		width: 100%;
+		margin-bottom: 0px;
+	}
+	.mainList{
+		margin-top: 10%;
+	    margin-bottom: 10%;
+		position: inherit;
+		clear: both;
+		float: left;
+		width: 100%;
+	}
+	.list:hover{
+		box-shadow: none;
+	}
+	#listtag{
+		margin-top: 3%;
+		width: 80%;
+	}
+}
+.singlePage{
+	width: 90%;
+	margin: 2% auto 0 auto;
+	border: 1px solid #f6f6f6;
+	padding: 3% 2% 1%
+}
+.singleTitle{
+	color: #424242;
+	font-size: 16pt;
+	padding-bottom: 1%;
+	margin: 0px 1% 0px 1%;
+	border-bottom: 1px solid #f6f6f6;
+}
+.singleContent{
+    overflow:hidden;
+	margin: 3% 0px 2% 2%;
+	color: #607D8B;
+	font-size: 11pt;
+    line-height:25px;
+}
+.singleTime{
+	color: #BDBDBD;
+	text-align: right;
+	padding-right: 2%;
+}
+
+

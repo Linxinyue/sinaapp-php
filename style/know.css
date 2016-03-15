@@ -1,0 +1,250 @@
+*
+{
+    margin: 0 0;
+    padding: 0 0;
+}
+a
+{
+    text-decoration: none;
+}
+
+.header
+{
+    position: fixed;
+
+    display: none;
+
+    width: 100%;
+    height: 50px;
+
+    border-bottom: 1px solid #03a9f4;
+    background-color: #03a9f4;
+    box-shadow: 0 5px 10px #999;
+}
+.find
+{
+    position: absolute;
+
+    display: inline-block;
+
+    height: 50px;
+    padding: auto auto;
+
+    text-align: center;
+}
+.mobileSearch
+{
+    float: left;
+    overflow: hidden;
+
+    width: 0;
+    height: 50px;
+    margin-left: 10px;
+}
+.mobileInput
+{
+    font-size: 12pt;
+
+    height: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    outline: none;
+    background-color: #03a9f4;
+}
+.findImg
+{
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.findImgDiv
+{
+    float: left;
+}
+.menu
+{
+    float: right;
+
+    width: 60px;
+    margin-right: 1%;
+}
+.entry
+{
+    display: none;
+    text-align: center;
+    box-shadow: 0 5px 10px #999;
+}
+.subEntry
+{
+    line-height: 40px;
+    height: 40px;
+    color: #fff;
+    background-color: #03a9f4;
+}
+
+.mainQuestionsPage
+{
+    width: 60%;
+    margin: 0 auto;
+    padding: 5% 2%;
+}
+
+.searchPart
+{
+    position: absolute;
+
+    width: 60%;
+}
+
+.inputDiv
+{
+    position: absolute;
+}
+.prompt
+{
+    font-size: 16pt;
+    line-height: 40px;
+
+    position: absolute;
+
+    height: 40px;
+
+    color: #1691f3;
+}
+
+.searchInput
+{
+    font-size: 18pt;
+    line-height: 40px;
+
+    height: 40px;
+
+    color: #1691f3;
+    border: none;
+    border-bottom: 1px solid #1691f3;
+    outline: none;
+}
+
+
+.singleQuestion
+{
+    clear: both;
+
+    width: 100%;
+    margin-top: 4%;
+
+    border-bottom: 1px solid #eaeaea;
+}
+#firstQuestion
+{
+    margin-top: 8%;
+}
+
+.questionTitle
+{
+    font-size: 13pt;
+
+    margin-right: 1%;
+    margin-left: 1%;
+
+    color: #424242;
+}
+.questionContent
+{
+    font-size: 12pt;
+
+    margin: 2% 1% 1% 1%;
+
+    color: #607d8b;
+}
+
+
+.options
+{
+    position: fixed;
+    top: 60%;
+    left: 82%;
+
+    width: 60px;
+    height: 200px;
+}
+.hideOption
+{
+    font-size: 10pt;
+    line-height: 30px;
+
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    padding: 10px 10px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #fff;
+    border-radius: 25px;
+    background-color: #ffeb3b;
+    box-shadow: 5px 5px 10px #999;
+}
+.showOptions
+{
+    position: absolute;
+    bottom: 60px;
+
+    display: none;
+
+    width: 60px;
+}
+.control
+{
+    font-size: 28pt;
+    line-height: 30px;
+
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    padding: 10px 10px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #fff;
+    border-radius: 25px;
+    background-color: #ffeb3b;
+    box-shadow: 5px 5px 10px #999;
+}
+
+@media (max-width:800px)
+{
+    .options
+    {
+        display: none;
+    }
+    .searchPart
+    {
+        display: none;
+    }
+    .mainQuestionsPage
+    {
+        width: 90%;
+        padding-top: 15%;
+    }
+    .singleQuestion
+    {
+        margin-top: 10%;
+    }
+    .header
+    {
+        display: block;
+    }
+}

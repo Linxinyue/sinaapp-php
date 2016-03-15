@@ -1,0 +1,49 @@
+.indexMain{
+	margin: 8% auto 0 auto;
+	width: 50%;
+	display: none;
+}
+
+.indexContent{
+	margin-top: 5%;
+	width: 100%;
+	height: 300px;
+	border: 1px solid #eaeaea;
+	box-shadow: 0px 5px 10px #999;
+}
+@media (max-width:800px){
+	.indexMain{
+		width: 90%;
+	}
+	#firstContent{
+		margin-top: 20%;
+	}
+}
+.indexTitle{
+	color: #424242;
+	margin: 16px 16px 5px 16px;
+	padding-left: 6px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #efefef;
+}
+.titleList{
+	padding-left: 22px;
+	padding-right: 16px;
+	height: 30px;
+	overflow: hidden;
+	color: #607D8B;
+	line-height: 30px;
+}
+.titleList a{
+	color:#607D8B;
+}
+.pageContent{
+	width: 70%;
+	height: 500px;
+	background-color: red;
+	float: left;
+	margin-right: 10%;
+}
+#three{
+	margin-bottom: 15%;
+}

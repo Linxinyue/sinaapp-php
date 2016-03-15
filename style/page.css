@@ -1,0 +1,59 @@
+body{
+	margin: 0 0;
+	padding: 0 0;
+}
+p{
+	margin-top:1%;
+    line-height:25px;
+}
+a{
+	text-decoration: none;
+    color:#000;
+}
+.webSitePageTitle{
+	margin-bottom: 3%;
+	font-size: 18pt;
+	color: #8BC34A;
+}
+.webSitePageContent{
+	margin-bottom: 5%;
+}
+.webSitePageContent a{
+	text-decoration: underline;
+    color:#8BC34A;
+}
+.webSiteMainPage{
+	margin: 5% auto 2% auto;
+	width: 60%;
+}
+.webSitePrePage{
+	float: left;
+}
+.webSiteNextPage{
+	float: right;
+	margin-bottom: 5%;
+}
+.webSiteOptions{
+	clear: both;
+	width: 15%;
+	float: right;
+	margin-bottom: 5%;
+}
+.webSiteOption{
+	width: 50%;
+	float: right;
+	cursor: pointer;
+	text-align: center;
+}
+#webSiteOptionBack{
+	color: #3F51B5;
+}
+@media (max-width:800px){
+	.webSiteMainPage{
+		width: 90%;
+	}
+	.webSiteOptions{
+		width: 30%;
+		margin-bottom: 10%;
+	}
+}

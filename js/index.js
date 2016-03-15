@@ -1,0 +1,3 @@
+$(function(){
+	$(".indexMain").fadeIn('slow');
+});
